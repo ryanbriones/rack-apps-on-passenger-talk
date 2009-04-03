@@ -1,0 +1,41 @@
+Possible Titles
+===============
+
+* Rack Applications on Phusion Passenger
+* A Match Made in Heaven: Rack <3 Passenger
+* Peas : Carrots :: Rack : Passenger
+* Rack and Passenger sitting it a tree...
+
+Outline
+=======
+
+* Rack
+  * What is it?
+    * Based on Python's WSGI
+    * Why? Death to CGI!
+  * Anatomy of a Rack Application
+    * Should Respond to #call
+    * #call should take 1 argument: env hash
+    * should output an tuple of [HTTP STATUS, HEADERS HASH, ENUMERABLE BODY]
+  * Middleware: Racks can be stacked!
+    * TODO
+  * Rack-based frameworks
+    * Sinatra
+      * Normal awesomeness: Sinatra DSL
+	* Next Level awesomeness: Sinatra-based classes acting as middleware
+    * Rails
+      * Mixin Middleware
+    * Merb, Waves, Ramaze
+* Passenger 
+  * What
+    * Apache Module
+    * Supports Rails and Rack applications
+    * Super easy deployment
+    * Auto spin up/spin down app processes
+  * How does it work?
+    * Install passgener gem
+    * Compile passenger apache module
+    * Configure apache to use passenger
+    * Point apache to your DocumentRoot to app/public
+    * Restart by touching app/tmp/restart.txt
+  * Demo
