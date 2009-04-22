@@ -24,6 +24,8 @@ Then two relatively new technologies met: Rack and Phusion Passenger. A match ma
   * the rack spec: [http://rack.rubyforge.org/doc/files/SPEC.html](http://rack.rubyforge.org/doc/files/SPEC.html)
 * **The Rack Contrib Project** - A collection of rack open source, contributed middlewares
   * github: [http://github.com/rack/rack-contrib](http://github.com/rack/rack-contrib)
+* **Rails Guides: Rails on Rack**
+  * [http://guides.rubyonrails.org/rails_on_rack.html](http://guides.rubyonrails.org/rails_on_rack.html)
 * **In a World of Middleware, Who Needs Monolithic Applications?** - Jon Crosby @ Mountain West Ruby Conf 2009
   * [http://mwrc2009.confreaks.com/13-mar-2009-11-05-in-a-world-of-middleware-who-needs-monolithic-applications-jon-crosby.html](http://mwrc2009.confreaks.com/13-mar-2009-11-05-in-a-world-of-middleware-who-needs-monolithic-applications-jon-crosby.html)
 * **Rack Screencast Mini Series** - Remi Taylor
